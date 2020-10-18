@@ -44,7 +44,7 @@ body {
     outline: 0;
     padding: 6px 10px;
     line-height: 24px;
-    margin: 32px auto;
+    margin:32px auto;
     -webkit-transition: all ease-in 0.2ms;
     -moz-transition: all ease-in 0.2ms;
     transition: all ease-in 0.2ms;
@@ -285,7 +285,7 @@ body {
     left: 10%;
 }
 
-.button {
+.buttonClass {
     position: relative;
     top: - 5%;
     left: 75%;
@@ -308,6 +308,6 @@ body {
     -webkit-transition: all 0.1s ease-in;
 }
 
-.button:hover {
+.buttonClass:hover {
     transform: scale(1.2);
 }

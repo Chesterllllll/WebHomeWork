@@ -14,9 +14,10 @@
             <h1 style=" margin: 0; text-align: center; 
             text-shadow: 1px 1px 1px; font:verdana;font-size:26px">添加联系人<br></h1>
             <form>
-                <label><input type="text" placeholder="Name chester" /></label>
-                <label><input type="text" placeholder="Phone 133 3333 3333" /></label>
-                <label><input type="text" placeholder="Email xxx@xx.com" /></label>
+                <label><input type="text" placeholder="Name chester (Required)" required=true /></label>
+                <label><input type="text" placeholder="Phone 133 3333 3333" pattern=[0-9]{11} /></label>
+                <label><input type="text" placeholder="Email xxx@xx.com"
+                        pattern="^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$" /></label>
                 <label><input type="text" placeholder="Address xxxx" /></label>
 
                 <input type="submit" value="Add" onclick="IfValid()" />
